@@ -2,6 +2,9 @@
 #include <map>
 using namespace std;
 
+// Qualification Round Africa 2010, Problem A. Store Credit
+// https://code.google.com/codejam/contest/351101/dashboard#s=p0
+
 void output(int i, int x, int y) {
    cout << "Case #" << i << ": " << (x < y ? x : y) << " " << (x > y ? x : y) << endl;
 }
