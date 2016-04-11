@@ -2,6 +2,9 @@
 #include <string>
 using namespace std;
 
+// Qualification Round 2016, Problem B. Revenge of the Pancakes
+// https://code.google.com/codejam/contest/6254486/dashboard#s=p1
+
 int main() {
    int t; cin >> t;
    for (int i = 0; i < t; ++i) {

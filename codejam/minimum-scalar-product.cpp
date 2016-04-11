@@ -3,6 +3,9 @@
 #include <algorithm>
 using namespace std;
 
+// Round 1A 2008, Problem A. Minimum Scalar Product
+// https://code.google.com/codejam/contest/32016/dashboard#s=p0
+
 #define ll long long int
 
 void read(vector<ll> &v, ll n) {
