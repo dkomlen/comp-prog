@@ -7,3 +7,8 @@
 *.iml
 .idea/
 out/
+src/
+target/
+project/
+*.sbt
+
