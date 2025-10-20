@@ -11,6 +11,7 @@ class Solution:
         dp[0][0] = 1
         for i in range(m):
             for j in range(n):
-                dp[i][j] += self.get(dp, i-1, j, m, n) + self.get(dp, i, j-1, m, n)
-        
+                dp[i][j] += self.get(dp, i-1, j, m, n) + \
+                    self.get(dp, i, j-1, m, n)
+
         return dp[m-1][n-1]

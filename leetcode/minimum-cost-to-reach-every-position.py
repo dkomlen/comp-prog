@@ -5,6 +5,6 @@ class Solution:
             if not sol:
                 sol.append(x)
             else:
-                sol.append(min(sol[-1]), x)
-            
+                sol.append(min(sol[-1], x))
+
         return sol
